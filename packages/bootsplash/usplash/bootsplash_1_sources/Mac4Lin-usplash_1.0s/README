@@ -1,0 +1,44 @@
+This is my first attempt at a usplash theme.  It uses custom animation to get the feel of a mac osx box booting - with the osx spinner.  There are 4 different resolution images for use - 1024x768, 1280x1024, 1280x800, and 1440x900.  Not sure about getting the widescreen resolutions to work but the 4:3 resolutions work.  The default resolution is 1024x768.
+
+You can change the code: <code>static int spinner_speed = 2;</code> to a number between 1 and 25 to throttle the speed at which the spinner spins.  There are 12 images in the spinner, so a value of 2 will make the spinner go round approximately once per second since the animation function gets called 25 times per second.  Of course a larger value will make it move slower.
+
+THANKS
+==================================================
+A big thanks to the linux community and the authors of other usplash themes for which I learned from reading the code.  Also huge thanks to the theme developers as I would not have any graphics if it was not for them.
+
+I am sorry I can't remember who in particular to thank for the insights into the code and the graphics.  If you email me I will most certainly give you credit.
+
+QUICK INSTALL
+==================================================
+Included is the splash lib.  You can get running quickly by:
+
+1.  make install
+2.  reboot
+
+
+QUICK BUILD AND INSTALLATION
+==================================================
+The make file will take care of building, installing and regenerating initrd so the new splash takes effect on reboot.
+
+1.  make
+2.  sudo make install
+3.  reboot
+
+
+MANUAL BUILD AND INSTALLATION
+==================================================
+You will need to appropriate libs and compiler to install.
+
+1.  make
+2.  copy macx-splash.so to your desired location
+3.  update /etc/alternatives/usplash-artwork.so to point to macx-splash.so
+4.  regenerate initrd
+5.  reboot
+
+
+**** Note:  after make and make install you can do "sudo make test" to see it without rebooting
+
+
+Should you have any comments or suggestions, feel free to email me at kilo323@yahoo.com
+
+Enjoy!!

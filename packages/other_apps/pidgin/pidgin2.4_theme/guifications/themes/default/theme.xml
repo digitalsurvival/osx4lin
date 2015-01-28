@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<guifications>
+	<theme api='1'>
+		<info>
+			<name>[Default]</name>
+			<version>1.0</version>
+			<summary>Guifications Default Theme</summary>
+			<description>The default guifications theme</description>
+			<author>Gary Kramlich &lt;amc_grim@users.sf.net&gt;</author>
+			<website>http://guifications.sourceforge.net</website>
+		</info>
+		<options>
+			<ellipsis>...</ellipsis>
+		</options>
+		<notification type='sign-on' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='has signed on' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='sign-off' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='has signed off' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='away' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='has gone away' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='back' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='has returned' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='idle' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='has gone idle' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='unidle' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='is no longer idle' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='im-message' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='has messaged you' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='chat-message' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='messaged %c' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='nick-highlight' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+			<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-12' />
+				<text format='said your nick' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='in %c' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='chat-join' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='has joined %c' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='chat-part' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='has left %c' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='chat-invite' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n invited' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='you to %X' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='typing' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='is typing' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='typing-stopped' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='has stopped typing' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='warned' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%W' clipping='ellipsis-middle' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='has warned you' clipping='ellipsis-middle' />
+			</item>
+		</notification>
+		<notification type='topic-changed' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n changed the topic' clipping='ellipsis-middle' width='0' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-13%' />
+				<text format='of %C to' clipping='ellipsis-middle' width='0' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='%r' clipping='ellipsis-middle' width='0' />
+			</item>
+		</notification>
+		<notification type='file-remote-cancel' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='%n canceled the' clipping='ellipsis-middle' width='0' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-13%' />
+				<text format='tranfer of file' clipping='ellipsis-middle' width='0' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='"%X"' clipping='ellipsis-middle' width='0' />
+			</item>
+		</notification>
+		<notification type='file-recv-complete' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='You have receieved' clipping='ellipsis-middle' width='0' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-13%' />
+				<text format='"%X"' clipping='ellipsis-middle' width='0' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<text format='from %n' clipping='ellipsis-middle' width='0' />
+			</item>
+		</notification>
+		<notification type='file-send-complete' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='Transfer of' clipping='ellipsis-middle' width='0' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-13%' />
+				<text format='"%X" completed.' clipping='ellipsis-middle' width='0' />
+			</item>
+		</notification>
+		<notification type='new-email' background='background.png'>
+			<item type='icon'>
+				<position value='south-west' />
+				<h_offset value='5' />
+				<v_offset value='-5' />
+				<icon type='protocol' size='little' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-25%' />
+				<text format='Mail (%X) from' clipping='ellipsis-middle' width='0' />
+			</item>
+			<item type='text'>
+				<position value='center' />
+				<v_offset value='-13%' />
+				<text format='%c (%a).' clipping='ellipsis-middle' width='0' />
+			</item>
+		</notification>
+	</theme>
+</guifications>

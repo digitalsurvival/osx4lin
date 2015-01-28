@@ -1,0 +1,17 @@
+Name=Shiny
+Description=Shiny emoticons by rowancompsciguy
+Icon=grin.png
+Author=rowancompsciguy
+
+[default]
+happy.png			:) :-) :o)
+unsure.png			:| :-| :o| :/ :-/ :o/
+sad.png			:( :-( :o(
+tongue.png		:P :-P :oP :-p :p :op
+grin.png			:D :-D :oD :d :-d :od
+wink.png			;) ;-) ;o)
+tongue.png		;P ;-P ;oP ;-p ;p ;op
+surprised.png			:O :-= :o- :o= :o :-- :-O
+angry.png		>:O >:-O >:-o >:o {-O {O {-o {o
+cool.png		8) 8-) B) B-)
+crying.png			:*( :'-( :'( :*-(

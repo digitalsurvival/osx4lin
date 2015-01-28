@@ -1,0 +1,42 @@
+[DEFAULT]
+autohide = True
+
+[bar]
+icon_offset = 16
+glass_histep_2 = FFFFFF00
+glass_histep_1 = FFFFFF2C
+show_separator = True
+border_color = D3D3D330
+bar_height = 43
+bar_angle = 32
+pattern_uri = ~
+corner_radius = 10.0
+pattern_alpha = 15.0
+glass_step_1 = CBCBCBE0
+glass_step_2 = CFCFCF9D
+rounded_corners = False
+sep_color = FFFFFFC4
+hilight_color = C9C9C900
+render_pattern = False
+
+[app]
+hover_bounce_effect = True
+alpha_effect = True
+arrow_color = FFFFFFFF
+active_png = ~
+tasks_have_arrows = True
+
+[root]
+
+[details]
+date = July 14th, 2014
+version = v1.0
+name = OSX4Lin_AWN_v1.0
+author = 
+
+[title]
+shadow_color = FDFFFEB8
+font_face = Sans Bold 9
+background = 2F2F2F9E
+text_color = FFFFFFAD
+

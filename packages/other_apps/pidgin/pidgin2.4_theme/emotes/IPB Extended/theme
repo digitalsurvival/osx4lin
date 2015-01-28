@@ -1,0 +1,71 @@
+Name=IPB Extended
+Description=Invision Power Board Emoticons for Gaim
+Icon=b_evilsmile.gif
+Author=by coxon
+
+[default]
+!!!.gif		(!)
+b_b.gif		:-) :)
+b_zwinker.gif	;-) ;)
+b_grins.png	:-D :D
+b_sad.gif	:-( :(
+s_confused.gif	:-/ :/ :-\ :\
+mellow.gif	:-| :|
+s_cry.gif	:'( :-'(
+s_dry.gif	>_> <_<
+unsure.gif	:ka:
+phear.gif	:phear:
+b_tounge2.gif	:-P :-p :P :p
+cool.png	B-) B) :cool:
+b_evilsmile.gif	]:-> ]:> >:-) >:)
+s_evilgrim.gif	]:-< ]:< >:-( >:(
+b_beer.gif	(B)
+b_beer2.gif	(BB)
+b_fresse.gif	:fresse:
+s_idiot.gif	:idiot:
+b_happy.gif	^_^ ^^
+b_hi.gif	:wave:
+b_idea.gif	:idea:
+b_laber.gif	:st:
+b_lol1.gif	LOL lol
+b_lol2.gif	LMAO lmao
+b_lol3.gif	ROFL rofl
+b_love1.gif	(L) (l)
+b_love2.gif	:wub:
+b_love3.png	:-* :* :-{}
+blush.gif	:blush:
+b_naughty.gif	:grins:
+b_pizza.gif	:pizza:
+b_punk.gif	:bang:
+b_wdremel.gif	:dremel:
+c_sideleft.gif	<-- <-
+c_sideright.gif	--> ->
+d_2.gif		:2:
+d_dance.gif	:dance:
+d_egypt.gif	:egypt:
+d_dash.gif	:dash:
+depp.gif	:depp:
+d_geek.gif	nerd
+help.gif	:help:
+whistling.png	:w: :W:
+innocent.png	O:-) 0:-) o:-) O:) 0:) o:)
+ka_bhf.gif	:bhf:
+ka_blink1.png	o.O oO o_O
+ka_blink1.png	O.o Oo O_o
+ka_-_-.gif	-_- -.-
+ka_huh.gif	:huh:
+kopfkratz.gif	:hmm:
+kotz.gif	:x :X
+kotz2.gif	:-x :-X
+learn.gif	:book: learn
+ohmy.gif	=-O :-O =-o :-o :O :o
+pff.gif		:fu:
+pinch.gif	>< >.< doh
+sauer1.gif	}:-[ }:-( :((
+sauer2.gif	:grr:
+sauer3.gif	:ranting:
+sauer4.gif	:dush:
+sifi1.gif	:borg:
+sifi2.gif	:vader:
+sifi3.gif	:vik:
+tux.gif		:tux:

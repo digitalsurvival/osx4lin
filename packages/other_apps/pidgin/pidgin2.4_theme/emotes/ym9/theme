@@ -1,0 +1,111 @@
+NAME=Yahoo 9
+Description=Smilies and emoticons from Yahoo! Messenger 9.x
+Icon=big_grin.gif
+Author=Jpeg
+
+[Yahoo]
+happy.gif			:)
+sad.gif				:(
+winking.gif			;)
+big_grin.gif			:D
+batting_eyelashes.gif		;;)
+big_hug.gif			>:D<
+confused.gif			:-/
+love_struck.gif			:x
+blushing.gif			:">
+tongue.gif			:P
+kiss.gif			:-*
+broken_heart.gif		=((
+surprise.gif			:-O
+angry.gif			X(
+smug.gif			:>
+cool.gif			B-)
+worried.gif			:-S
+whew.gif			#:-S
+devil.gif			>:)
+crying.gif			:((
+laughing.gif			:))
+straight_face.gif		:|
+raised_eyebrow.gif		/:)
+rolling_on_the_floor.gif	=))
+angel.gif			O:-)
+nerd.gif			:-B
+talk_to_the_hand.gif		=;
+call_me.gif			:-c
+on_the_phone.gif		:)]
+at_wits_end.gif			~X(
+wave.gif			:-h
+time_out.gif			:-t
+daydreaming.gif			8->
+sleepy.gif			I-)
+rolling_eyes.gif		8-|
+loser.gif			L-)
+sick.gif			:-&
+dont_tell_anyone.gif		:-$
+not_talking.gif			[-(
+clown.gif			:O)
+silly.gif			8-}
+party.gif			<:-P
+yawn.gif			(:|
+drooling.gif			=P~
+thinking.gif			:-?
+doh.gif				#-o
+applause.gif			=D>
+nailbiting.gif			:-SS
+hypnotized.gif			@-)
+liar.gif			:^o
+waiting.gif			:-w
+sigh.gif			:-<
+phbbbbt.gif			>:P
+cowboy.gif			<):)
+
+# Hidden Emoticons
+
+puppy_dog_eyes.gif		:o3
+i_dont_know.gif			:-??
+not_listening.gif		%-(
+pig.gif				:@)
+cow.gif				3:-O
+monkey.gif			:(|)
+chicken.gif			~:>
+rose.gif			@};-
+good_luck.gif			%%-
+flag.gif			**==
+pumpkin.gif			(~~)
+coffee.gif			~O)
+idea.gif			*-:)
+skull.gif			8-X
+bug.gif				=:)
+alien.gif			>-)
+frustrated.gif			:-L
+praying.gif			[-O<
+money_eyes.gif			$-)
+whistling.gif			:-"
+feeling_beat_up.gif		b-(
+peace_sign.gif			:)>-
+shame_on_you.gif		[-X
+dancing.gif			\:D/
+bring_it_on.gif			>:/
+hee_hee.gif			;))
+chatterbox.gif			:-@
+not_worthy.gif			^:)^
+oh_go_on.gif			:-j
+star.gif			(*)
+
+# Only available after activating the Yahoo! Fighter IMVironment
+
+hiro.gif			o->
+billy.gif			o=>
+april.gif			o-+
+yin_yang.gif			(%)
+
+# New in 9.x
+
+dont_want_to_see.gif		X_X
+hurry_up.gif			:!!
+rock_on.gif			\m/
+thumbs_down.gif			:-q
+thumbs_up.gif			:-bd
+it_wasnt_me.gif			^#(^
+bee.gif				:bz
+

@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<guifications>
+	<theme api='1'>
+		<info>
+			<name>Yellowfication Version 2</name>
+			<version>0.2</version>
+			<summary>Yellowfication for Nuvola-Yellow</summary>
+			<description>Guifications theme made by Richard Ruhland</description>
+			<author>Richard Ruhland</author>
+			<website></website>
+		</info>
+		<options>
+			<date_format>%x</date_format>
+			<time_format>%X</time_format>
+			<warning>N/A</warning>
+			<ellipsis>...</ellipsis>
+		</options>
+		<notification type='sign-on' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='has signed in' font='Sans 9' color='#1e1e55557575' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='sign-off' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='has signed off' font='Sans 9' color='#1e1e55557575' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='away' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='went away' font='Sans 9' color='#1e1e55557575' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='back' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='has returned' font='Sans 9' color='#1e1e55557575' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='idle' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='has gone idle' font='Sans 9' color='#1e1e55557575' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='unidle' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='has returned from idle' font='Sans 9' color='#1e1e55557575' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='im-message' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n says:' font='Sans Bold 9' color='#575784844646' clipping='ellipsis-middle' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='%r' font='Sans 9' color='#575784844646' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='chat-message' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#575784844646' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='messaged %c' font='Sans 9' color='#575784844646' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='nick-highlight' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#575784844646' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='said your nick' font='Sans 9' color='#575784844646' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='chat-join' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='has joined %c' font='Sans 9' color='#1e1e55557575' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='chat-part' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='has left %c' font='Sans 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='chat-invite' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='invited you to...' font='Sans 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='typing' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#575784844646' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='is typing' font='Sans 9' color='#575784844646' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='typing-stopped' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#575784844646' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='stoped typing' font='Sans 9' color='#575784844646' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='warned' use_gtk='0' background='yellowfication_v2.png' alias='Warning' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%W' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='has warned you' font='Sans 9' color='#1e1e55557575' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+		<notification type='topic-changed' use_gtk='0' background='yellowfication_v2.png' width='0' height='0'>
+			<item type='text'>
+				<position value='north-west'/>
+				<h_offset value='80'/>
+				<v_offset value='7'/>
+				<text format='%n' font='Sans Bold 9' color='#1e1e55557575' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='80'/>
+				<v_offset value='-10'/>
+				<text format='changed the topic' font='Sans 9' color='#1e1e55557575' clipping='truncate' width='145'/>
+			</item>
+			<item type='icon'>
+				<position value='north-east'/>
+				<h_offset value='-17'/>
+				<v_offset value='4'/>
+				<icon type='protocol' size='tiny'/>
+			</item>
+			<item type='icon'>
+				<position value='north-west'/>
+				<h_offset value='6'/>
+				<v_offset value='5'/>
+				<icon type='buddy' size='big'/>
+			</item>
+		</notification>
+	</theme>
+</guifications>

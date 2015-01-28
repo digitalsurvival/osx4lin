@@ -1,0 +1,24 @@
+#!/bin/sh
+xcursorgen left_ptr_watch.in cursors/left_ptr_watch
+xcursorgen hand1.in cursors/hand1
+xcursorgen hand1.in cursors/hand2
+xcursorgen left_ptr.in cursors/left_ptr
+xcursorgen xterm.in cursors/xterm
+xcursorgen crossed_circle.in cursors/crossed_circle
+xcursorgen right_ptr.in cursors/right_ptr
+xcursorgen copy.in cursors/copy
+xcursorgen circle.in cursors/circle
+xcursorgen sb_h_double_arrow.in cursors/sb_h_double_arrow
+xcursorgen sb_v_double_arrow.in cursors/sb_v_double_arrow
+xcursorgen top_left_corner.in cursors/top_left_corner
+xcursorgen top_right_corner.in cursors/top_right_corner
+xcursorgen watch.in cursors/watch
+xcursorgen sb_left_arrow.in cursors/sb_left_arrow
+xcursorgen sb_right_arrow.in cursors/sb_right_arrow
+xcursorgen sb_up_arrow.in cursors/sb_up_arrow
+xcursorgen sb_down_arrow.in cursors/sb_down_arrow
+xcursorgen based_arrow_down.in cursors/based_arrow_down
+xcursorgen based_arrow_up.in cursors/based_arrow_up
+xcursorgen fleur.in cursors/fleur
+xcursorgen question_arrow.in cursors/question_arrow
+xcursorgen X_cursor.in cursors/X_cursor

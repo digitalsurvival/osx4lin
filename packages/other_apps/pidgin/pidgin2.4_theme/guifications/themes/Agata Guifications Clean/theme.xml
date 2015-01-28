@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<guifications>
+	<theme api='1'>
+		<info>
+			<name>Agata Theme Clean</name>			<version>1.0</version>			<summary>Agata Style</summary>			<description>Guinotification Theme</description>			<author>Pierpaolo Gullotta</author>					</info>
+		<options>
+			<date_format>%x</date_format>			<time_format>%X</time_format>			<warning>N/A</warning>			<ellipsis>...</ellipsis>		</options>
+		<notification type='sign-on' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='has signed in' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='sign-off' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='has signed off' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='away' use_gtk='0' background='box.png' width='16' height='16'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='went away' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='back' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='has returned' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='idle' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='has gone idle' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='unidle' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='returned from idle' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='little'/>
+			</item>
+		</notification>
+		<notification type='im-message' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n:' font='Sans Bold 8' color='#000000' clipping='ellipsis-middle' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='%r' font='Sans 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='chat-message' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='95'/>
+				<v_offset value='15'/>
+				<text format='messaged %c' font='Sans 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='nick-highlight' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='said your nick' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='23'/>
+				<text format='in %c' font='Sans 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='chat-join' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='has joined %c' font='Sans 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='chat-part' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='has left %c' font='Sans 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='west' size='normal'/>
+			</item>
+		</notification>
+		<notification type='chat-invite' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='invited you to' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='20'/>
+				<text format='%X' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='typing' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='is typing' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='typing-stopped' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='stopped typing' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='warned' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%W' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='has warned you' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='normal'/>
+			</item>
+		</notification>
+		<notification type='topic-changed' use_gtk='0' background='box.png' width='0' height='0'>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='1'/>
+				<text format='%n' font='Sans Bold 8' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='15'/>
+				<text format='changed the topic' font='Sans 8' color='#000000' clipping='truncate' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='18'/>
+				<text format='of %C to' color='#000000' clipping='ellipsis-middle' width='90'/>
+			</item>
+			<item type='text'>
+				<position value='west'/>
+				<h_offset value='85'/>
+				<v_offset value='20'/>
+				<text format='%r' color='#000000' clipping='ellipsis-end' width='90'/>
+			</item>
+			<item type='icon'>
+				<position value='west'/>
+				<h_offset value='25'/>
+				<v_offset value='3'/>
+				<icon type='buddy' size='little'/>
+			</item>
+		</notification>
+	</theme>
+</guifications>

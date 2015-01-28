@@ -1,0 +1,82 @@
+Name=Crystal MSN
+Description=CrystalMess for Gaim (Ported from Kopete CrystalMess theme)
+Icon=regular.png
+Author=Lauri Taimila
+
+[default]
+regular.png	:-) :)
+wink.png	;-) ;)
+cry.png		:'(
+sad.png	:-( :(
+tongue.png	:-P :P :-p :p
+megasmile.png	:-D :D :d :-d
+angry.png	:@ :-@
+blank_look.png	:-| :|
+embarrassed.png	:$ :-$
+omg.png	:O :o
+confused.png	:S :s
+shade.png	(h) (H)
+bearingteeth.png	8o|
+party.png	&lt;o)
+sleepy.png	|-) |)
+sick.png	+o(
+thinking.png	*-)
+dunno.png	:^)
+sshh.png	:-# :#
+secret.png	:-* :*
+nerd.png	8-|
+eyeroll.png	8-)
+sarcastic.png	^o)
+angel.png	(a) (A)
+devil.png	(6)
+sun.png	(#)
+moon.png	(s)	(S)
+star.png	(*)
+storm.png	(st) (ST)
+lightning.png	(li) (LI)
+rainbow.png	(R) (r)
+palms.png	(ip) (IP)
+cat.png	(@)
+dog.png	(&amp;)
+bat.png	:-[ :[
+turtle.png	(tu) (TU)
+snail.png	(SN) (sn)
+sheep.png	(bah) (BAH)
+beer.png	(b) (B)
+cocktail.png	(d) (D)
+cake.png	(^)
+cup.png	(c) (C)
+pizza.png	(pi) (PI)
+plate.png	(pl) (PL)
+diablo.png	(||) (||)
+love.png	(l) (L)
+unlove.png	(u) (U)
+rose.png	(f) (F)
+wilted_rose.png	(w) (W)
+kiss.png	(k) (K)
+present.png	(g) (G)
+boy_hug.png	({)
+girl_hug.png	(})
+boy.png	(z) (Z)
+girl.png	(x) (X)
+thumbs_up.png	(y) (Y)
+thumbs_down.png	(n) (N)
+camera.png	(p) (P)
+film.png	(~)
+note.png	(8)
+clock.png	(o) (O)
+envelope.png	(e) (E)
+handcuffs.png	(%)
+phone.png	(t) (T)
+mobile_phone.png	(mp) (MP)
+asl.png	(?)
+messenger.png	(m) (M)
+computer.png	(co) (CO)
+soccer.png	(so) (SO)
+umbrella.png	(um) (UM)
+xbox.png	(xx) (XX)
+coins.png	(mo) (MO)
+cigarette.png	(ci) (CI)
+airplane.png	(ap) (AP)
+car.png	(au) (AU)
+brb.png	(brb) (BRB)

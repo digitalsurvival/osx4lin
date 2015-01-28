@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<guifications>
+	<theme api='1'>
+		<info>
+			<name>mini</name>
+			<version>1.0</version>
+			<summary>Guifications Mini Theme</summary>
+			<description>A minimal Guifications theme</description>
+			<author>Gary Kramlich &lt;amc_grim@users.sf.net&gt;</author>
+			<website>http://guifications.sourceforge.net</website>
+		</info>
+		<options>
+			<ellipsis>...</ellipsis>
+		</options>
+		<notification type='sign-on' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='signed on' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='sign-off' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='signed off' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='away' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='went away' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='back' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='came back' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='idle' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='went idle' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='unidle' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='is active' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='im-message' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='messaged you' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='chat-message' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='messaged %c' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='nick-highlight' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n mentioned' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='you in  %c' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='chat-join' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='joined %c' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='chat-part' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='left %c' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='chat-invite' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n invited' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='you to %X' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='typing' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%c' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='is typing' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='typing-stopped' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%c' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='stopped typing' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='warned' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%W' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+			<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='28' />
+				<text format='warned you' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='topic-changed' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='%n changed' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='29' />
+				<text format='%C&apos;s topic' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+		<notification type='new-email' background='background.png'>
+			<item type='icon'>
+				<position value='west' />
+				<h_offset value='2' />
+				<icon type='protocol' size='small' />
+			</item>
+			<item type='text'>
+				<position value='north-west' />
+				<v_offset value='2' />
+				<h_offset value='28' />
+				<text format='Mail (%X) from' clipping='ellipsis-end' width='66' />
+			</item>
+			<item type='text'>
+				<position value='south-west' />
+				<v_offset value='-3' />
+				<h_offset value='29' />
+				<text format='%c (%a).' clipping='ellipsis-end' width='66' />
+			</item>
+		</notification>
+	</theme>
+</guifications>
